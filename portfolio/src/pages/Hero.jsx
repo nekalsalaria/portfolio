@@ -16,7 +16,9 @@ const Hero = ({ darkMode, setDarkMode }) => {
           className="w-28 h-28 object-cover rounded-xl"
         />
         <div className="w-full flex flex-col items-center md:items-start text-center md:text-left">
-          <h1 className="text-3xl font-extrabold">Nekal Singh Salaria</h1>
+          <h1 className="text-3xl font-extrabold whitespace-nowrap">
+            Nekal Singh Salaria
+          </h1>
           <p className="text-m text-gray-600 dark:text-gray-300 mt-1 font-semibold">
             Full-Stack Developer & Competitive Programmer
           </p>
