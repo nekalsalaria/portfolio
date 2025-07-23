@@ -3,6 +3,7 @@ import profile from "../assets/profile.jpg";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FiSun, FiMoon } from "react-icons/fi";
+import { SiLeetcode } from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import { GoLocation } from "react-icons/go";
 
@@ -40,6 +41,14 @@ const Hero = ({ darkMode, setDarkMode }) => {
               className="bg-gray-100 dark:bg-gray-700 p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600"
             >
               <FaLinkedin className="text-lg" />
+            </a>
+            <a
+              href="https://leetcode.com/u/nekalsingh987/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gray-100 dark:bg-gray-700 p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600"
+            >
+              <SiLeetcode className="text-lg" />
             </a>
             <button
               onClick={() => setDarkMode(!darkMode)}

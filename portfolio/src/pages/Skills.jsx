@@ -15,11 +15,11 @@ const Skills = () => {
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">Skills</h2>
 
         {/* Skill tags */}
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap gap-4 ">
           {skills.map((skill, index) => (
             <span
               key={index}
-              className="bg-gray-50 dark:bg-gray-800 text-sm font-medium text-gray-700 dark:text-gray-200 px-4 py-2 rounded-full shadow-sm hover:scale-105 transition"
+              className="bg-gray-50 dark:bg-gray-800 text-sm font-medium text-gray-700 dark:text-gray-200 px-4 py-2 rounded-full shadow-sm hover:scale-125 transition"
             >
               {skill}
             </span>
