@@ -7,6 +7,7 @@ import Experience from "./pages/Experience";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
+import CaseStudies from "./pages/CaseStudies";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -28,6 +29,7 @@ function App() {
       <Skills />
       <Experience />
       <Projects />
+      <CaseStudies/>
       <Contact />
       <Footer />
     </div>
