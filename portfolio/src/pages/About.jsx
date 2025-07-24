@@ -2,8 +2,8 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" className="py-16 px-4 bg-white dark:bg-gray-900 transition-colors duration-300">
-      <div className="max-w-3xl mx-auto bg-gray-100">
+    <section id="about" className="py-16 px-4 bg-white bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
+      <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">About Me</h2>
         <p className="text-[17px] text-gray-800 dark:text-gray-300 leading-relaxed">
           I'm a <span className="font-semibold text-blue-600 dark:text-blue-400">Full-Stack Web Developer</span> skilled in React, Node.js, MongoDB, Tailwind CSS & more.
