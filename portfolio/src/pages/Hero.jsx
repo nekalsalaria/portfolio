@@ -37,7 +37,7 @@ const Hero = ({ darkMode, setDarkMode }) => {
   };
 
   return (
-    <section className="pt-28 pb-10 px-4 bg-gray-50 dark:bg-gray-900" id="hero">
+    <section className="pt-28 pb-10 px-4 bg-gray-100 dark:bg-gray-900" id="hero">
       {/* Like popup */}
       {showPopup && (
         <div className="fixed top-8 right-8 bg-green-500 text-white px-4 py-2 rounded shadow-lg z-50 animate-bounce">
