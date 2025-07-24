@@ -9,7 +9,7 @@ import { GoLocation } from "react-icons/go";
 
 const Hero = ({ darkMode, setDarkMode }) => {
   return (
-    <section className="pt-28 pb-10 px-4 bg-gray-100 dark:bg-gray-900" id="hero">
+    <section className="pt-28 pb-10 px-4 dark:bg-gray-900" id="hero">
       <div className="relative max-w-md md:max-w-4xl mx-auto shadow-md rounded-2xl p-8 flex flex-col items-center md:flex-row md:items-start gap-6 bg-white dark:bg-gray-800 text-gray-900 dark:text-white">
         
         {/* Dark Mode Toggle Button */}
