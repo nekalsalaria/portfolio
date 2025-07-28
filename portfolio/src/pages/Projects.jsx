@@ -3,6 +3,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import swapskillImg from "../assets/swapskill.png";
 import foodImg from "../assets/fooddelivery.png";
 import chatImg from "../assets/chatlyfy.png";
+import signupDesignImg from "../assets/signupdesign.png"; // ✅ Import the design image
 
 const fullStackProjects = [
   {
@@ -61,10 +62,10 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="py-16 px-4  dark:bg-gray-900 transition-colors duration-300"
+      className="py-16 px-4 dark:bg-gray-900 transition-colors duration-300"
     >
-      <div className="max-w-4xl mx-auto ">
-        <h2 className="text-3xl  font-bold text-gray-900 dark:text-white mb-6">
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-6">
           Projects
         </h2>
 
@@ -94,14 +95,18 @@ const Projects = () => {
 
         {/* Content */}
         {activeTab === "design" ? (
-          <div className="text-center text-gray-700 dark:text-gray-300 text-xl font-semibold mt-10">
-            🎨 Design Projects Coming Soon...
+          <div className="flex justify-center">
+            <img
+              src={signupDesignImg}
+              alt="Signup Design"
+              className="rounded-lg shadow-lg max-w-full h-auto"
+            />
           </div>
         ) : (
           fullStackProjects.map((project, index) => (
             <div
               key={index}
-              className=" bg-gray-50 dark:bg-gray-800 rounded-xl shadow-md p-6 mb-10 flex flex-col md:flex-row gap-6 transition-colors duration-300"
+              className="bg-gray-50 dark:bg-gray-800 rounded-xl shadow-md p-6 mb-10 flex flex-col md:flex-row gap-6 transition-colors duration-300"
             >
               {/* Image */}
               <div className="w-full md:w-1/3 flex items-center justify-center">
